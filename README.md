@@ -21,3 +21,6 @@ MiTool auth ufs 2 3
 ```
 MiTool auth ufs 1 3
 ```
+```
+MiTool auth emmc 1 3
+```
