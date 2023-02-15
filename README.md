@@ -2,7 +2,7 @@
 
 # MiTool.exe
 >### MiTool help即可列出命令列表
->####Just a tool for mi auth....
+>#### Just a tool for mi auth....
 
 ## 命令列表：
 #### 1.help (帮助)
