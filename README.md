@@ -9,7 +9,9 @@
 #### 2.sendloader {引导文件地址} {端口号}
 #### 3.auth {内存类型} {方式} {端口号}
 >autholdmodel {memoryname} {sig} {port}(after send loader)
+>
 >getblob {port}(after send loader)
+>
 >sendauth {sigkey} {port}(after getblob)
 例：
 ```
