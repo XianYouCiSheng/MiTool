@@ -8,19 +8,22 @@
 #### 1.help (帮助)
 #### 2.sendloader {引导文件地址} {端口号}
 #### 3.auth {内存类型} {方式} {端口号}
+>autholdmodel {memoryname} {sig} {port}(after send loader)
+>getblob {port}(after send loader)
+>sendauth {sigkey} {port}(after getblob)
 例：
 ```
 MiTool help
 ```
 ```
-MiTool sendloader I:\alioth_images_V13.0.9.0.SKHCNXM_20221102.0000.00_12.0_cn\images\prog_ufs_firehose_sm8250_ddr_5.elf 3
+MiTool autholdmodel ufs 1或2 10
 ```
 ```
-MiTool auth ufs 2 3
+MiTool autholdmodel emmc 1或2 10
 ```
 ```
-MiTool auth ufs 1 3
+MiTool getblob 10
 ```
 ```
-MiTool auth emmc 1 3
+MiTool sendauth {sigkey} 10
 ```
