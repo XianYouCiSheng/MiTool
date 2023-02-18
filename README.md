@@ -7,7 +7,7 @@
 ## 命令列表：
 #### 1.help (帮助)
 #### 2.getblob {端口号}
-#### 3.sendauth {签名字符串} {端口号}
+#### 3.sendsig {签名字符串} {端口号}
 #### 4.autholdmodel {内存类型} {方式} {端口号}
 >autholdmodel {memoryname} {sig} {port}(after send loader)
 >
@@ -28,5 +28,5 @@ MiTool autholdmodel emmc 1或2 10 (端口我没测试过可能需要加COM 例�
 MiTool getblob 10 (端口我没测试过可能需要加COM 例如COM10) (端口我没测试过可能需要加COM 例如COM10)
 ```
 ```
-MiTool sendauth {sigkey} 10 (端口我没测试过可能需要加COM 例如COM10)
+MiTool sendsig {sigkey} 10 (端口我没测试过可能需要加COM 例如COM10)
 ```
