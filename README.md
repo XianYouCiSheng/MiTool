@@ -6,8 +6,9 @@
 
 ## 命令列表：
 #### 1.help (帮助)
-#### 2.sendloader {引导文件地址} {端口号}
-#### 3.auth {内存类型} {方式} {端口号}
+#### 2.getblob {端口号}
+#### 3.sendauth {签名字符串} {端口号}
+#### 4.autholdmodel {内存类型} {方式} {端口号}
 >autholdmodel {memoryname} {sig} {port}(after send loader)
 >
 >getblob {port}(after send loader)
